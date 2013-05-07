@@ -1,0 +1,8 @@
+h4 Help us design on the right platform for you.
+form(name='myForm').control-group(ng-class='{error: myForm.name.$invalid}')
+	p What devices would you like to play this game on?    
+	label.checkbox(ng-repeat='device in response.devices')
+		input(type='checkbox', ng-model='device.checked')
+		span {{device.name}}
+	br
+	button.btn.btn-danger(ng-click='save()', ng-disabled='isClean() || myForm.$invalid') Submit

@@ -1,0 +1,14 @@
+h4 You arrested the {{suspect.name}}.
+p {{suspect.arrest}}
+hr
+p 
+	b 3 Suspects is a crime solving puzzle game. 
+p Become a time travelling detective and solve crimes from murder to fraud and everything in between.
+p
+	b Get notified 
+	| of when we hit an app store near you.
+br
+form.form-inline(name='myForm').control-group(ng-class='{error: myForm.name.$invalid}')
+	input(type='text', name='email', ng-model='response.email', required='required', placeholder='Drop your email here, detective!', width='100px')
+	br
+	button.btn.btn-danger(ng-click='save()', ng-disabled='isClean() || myForm.$invalid') Submit
