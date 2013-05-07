@@ -1,25 +1,25 @@
 doctype 5
-html
-  head
-    title= '3 Suspects Puzzle Game'
-    meta(name='viewport', content='width=device-width, initial-scale=1.0')
-    link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
-    link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Raleway', type='text/css')
-    script
-      function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
-      ga('create', 'UA-40713661-1', 'herokuapp.com');
-      ga('send', 'pageview');
+html(ng-app='response')
+    head
+        title= '3 Suspects Puzzle Game'
+        meta(name='viewport', content='width=device-width, initial-scale=1.0')
+        link(rel='stylesheet', href='/stylesheets/bootstrap.min.css')
+        link(rel='stylesheet', href='/stylesheets/bootstrap-responsive.min.css')
+        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Raleway', type='text/css')
+        script
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+            ga('create', 'UA-40713661-1', 'herokuapp.com');
+            ga('send', 'pageview');
 
-  body
-    div.container(ng-app='response')
-        block content
-    // script(src='javascripts/bootstrap.js')
-    script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js')
-    script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-resource.min.js")
-    script(src='javascripts/angularapp.js')
+    body
+        div.container
+            block content
+        // script(src='javascripts/bootstrap.js')
+        script(src='https://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular.min.js')
+        script(src="http://ajax.googleapis.com/ajax/libs/angularjs/1.0.6/angular-resource.min.js")
+        script(src='javascripts/angularapp.js')
 

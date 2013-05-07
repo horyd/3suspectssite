@@ -8,7 +8,6 @@ var myApp = angular.module('response', ['mongolab']).
       otherwise({redirectTo:'/'});
   });
 
-
 myApp.service('suspects', function() {
   return [
           { name: 'Businessman',
@@ -33,12 +32,13 @@ myApp.service('suspects', function() {
 });
 
 function CreateCtrl($scope, $location,$routeParams, suspects, Response) {
-    
   $scope.suspect = suspects[$routeParams.id]
 
   $scope.save = function() {
+
     Response.save($scope.response, function(response) {
       $location.path('/edit/' + response._id.$oid);
+
     });
   };
 }
@@ -46,8 +46,9 @@ function CreateCtrl($scope, $location,$routeParams, suspects, Response) {
 function SuspectCtrl($scope, $location, suspects) {
   $scope.suspects = suspects;
   $scope.activate = 4;
+
   $scope.gotoResult = function(index){
-    $location.path('/result/' + index)
+    $location.path('/result/' + index);
   }
 }
 

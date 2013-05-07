@@ -1,5 +1,5 @@
-p.arrest Detective, the mayor of our town is dead!
-p.arrest Arrest one of these suspects!
+p.text-centre Detective, the mayor of our town is dead!
+p.text-centre.arrest Arrest one of these suspects!
 ul
 	li(ng-repeat='suspect in suspects', ng-mouseenter='activate=$index', ng-mouseleave='activate=4', ng-click='gotoResult($index)')
 		img.suspectimg(ng-src='{{suspect.img}}', ng-class-odd="'odd'", ng-class-even="'even'", ng-hide='activate==$index')

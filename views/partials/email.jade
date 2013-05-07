@@ -8,7 +8,7 @@ p
 	b Get notified 
 	| of when we hit an app store near you.
 br
-form.form-inline(name='myForm').control-group(ng-class='{error: myForm.name.$invalid}')
+form(name='myForm').control-group(ng-class='{error: myForm.name.$invalid}')
 	input(type='text', name='email', ng-model='response.email', required='required', placeholder='Drop your email here, detective!', width='100px')
 	br
 	button.btn.btn-danger(ng-click='save()', ng-disabled='isClean() || myForm.$invalid') Submit
