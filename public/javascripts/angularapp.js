@@ -12,19 +12,19 @@ myApp.service('suspects', function() {
   return [
           { name: 'Businessman',
             motive: 'The former business partner financially crippled by a deal gone wrong?',
-            arrest: 'Sounds like cold blooded revenge, but where was the financial motive?',
+            arrest: 'Nice work! A classic case of cold blooded revenge. The businessman is guilty.',
             img: '/images/businessman-01.png',
             redimg: '/images/businessman-red-01.png'
           },
           { name: 'Ex-Lover',
             motive: 'The jilted ex-lover whose name is still in the will?',
-            arrest: 'The money in the will isn\'t much, but what about the custody dispute over their only child?',
+            arrest: 'Sorry, she\'s innocent. Remember that deal gone wrong? Nothing in this will to inherit but debt!',
             img: '/images/woman-01.png',
             redimg: '/images/woman-red-01.png'
           },
           { name: 'Stranger',
             motive: 'The stranger seen lurking around the house over the past few weeks?',
-            arrest: 'This man is a private investigator, or is that just a cover for \'hitman\'?',
+            arrest: 'Sorry, he\'s innocent. The mayor attracts quite a bit of media attention, this bloke is just a regular paparazzi.',
             img: '/images/stranger-01.png',
             redimg: '/images/stranger-red-01.png'
           }

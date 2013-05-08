@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"lo",
+				"loading"
+			],
+			[
+				"f",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"padd",
+				"padding-right"
+			],
+			[
+				"5px",
+				"5px"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"li",
+				"list-style-type"
+			],
+			[
+				"busin",
+				"businessman"
+			],
+			[
 				"padding",
 				"padding-bottom"
 			],
@@ -63,7 +99,7 @@
 			"file": "views/layout.jade",
 			"settings":
 			{
-				"buffer_size": 556,
+				"buffer_size": 1297,
 				"line_ending": "Windows"
 			}
 		},
@@ -71,7 +107,7 @@
 			"file": "public/javascripts/angularapp.js",
 			"settings":
 			{
-				"buffer_size": 2023,
+				"buffer_size": 3430,
 				"line_ending": "Windows",
 				"name": "angular.module('project', ['mongolab'])."
 			}
@@ -80,8 +116,17 @@
 			"file": "views/index.jade",
 			"settings":
 			{
-				"buffer_size": 180,
+				"buffer_size": 204,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "views/partials/suspects.jade",
+			"settings":
+			{
+				"buffer_size": 508,
+				"line_ending": "Windows",
+				"name": "suspects"
 			}
 		},
 		{
@@ -96,7 +141,7 @@
 			"file": "views/partials/questions.jade",
 			"settings":
 			{
-				"buffer_size": 377,
+				"buffer_size": 409,
 				"line_ending": "Windows"
 			}
 		},
@@ -104,7 +149,7 @@
 			"file": "views/partials/email.jade",
 			"settings":
 			{
-				"buffer_size": 269,
+				"buffer_size": 595,
 				"line_ending": "Windows"
 			}
 		},
@@ -112,7 +157,23 @@
 			"file": "public/stylesheets/style.css",
 			"settings":
 			{
-				"buffer_size": 192,
+				"buffer_size": 999,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "public/javascripts/bootstrap.js",
+			"settings":
+			{
+				"buffer_size": 61752,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "views/partials/thanks.jade",
+			"settings":
+			{
+				"buffer_size": 125,
 				"line_ending": "Windows"
 			}
 		}
@@ -141,8 +202,11 @@
 	},
 	"file_history":
 	[
-		"/C/Users/Jaryd/Desktop/3suspectssite/views/partials/thanks.jade",
+		"/C/Program Files (x86)/Git/doc/git/html/git-push.html",
 		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/js/root.js",
+		"/C/Users/Jaryd/Desktop/angular_test_home/archive/angular_test_home 130413/js/root.js",
+		"/C/Users/Jaryd/Desktop/angular_test_home/angular_neo4j/js/root.js",
+		"/C/Users/Jaryd/Desktop/3suspectssite/views/partials/thanks.jade",
 		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/root.html",
 		"/C/Users/Jaryd/Desktop/3suspectssite/views/email.jade",
 		"/C/Users/Jaryd/Desktop/3suspectssite/views/questions.jade",
@@ -151,7 +215,6 @@
 		"/C/Users/Jaryd/Desktop/3suspectssite/views/thanks.jade",
 		"/C/Users/Jaryd/Desktop/3suspectssite/proj",
 		"/C/Users/Jaryd/Desktop/angular_test_home/angular_neo4j/root.html",
-		"/C/Users/Jaryd/Desktop/angular_test_home/angular_neo4j/js/root.js",
 		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/partials/stockIndex.html",
 		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/partials/stockShow.html",
 		"/C/Users/Jaryd/Desktop/angular_test_home/angular_test_home/partials/stockEdit.html",
@@ -185,6 +248,8 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"text",
+			"query",
 			"15px",
 			"project",
 			"Project",
@@ -213,7 +278,7 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 7,
 			"sheets":
 			[
 				{
@@ -221,20 +286,22 @@
 					"file": "views/layout.jade",
 					"settings":
 					{
-						"buffer_size": 556,
+						"buffer_size": 1297,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								254,
-								254
+								161,
+								161
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -247,15 +314,15 @@
 					"file": "public/javascripts/angularapp.js",
 					"settings":
 					{
-						"buffer_size": 2023,
+						"buffer_size": 3430,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1175,
-								1175
+								2658,
+								2658
 							]
 						],
 						"settings":
@@ -266,7 +333,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 270.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -276,15 +343,15 @@
 					"file": "views/index.jade",
 					"settings":
 					{
-						"buffer_size": 180,
+						"buffer_size": 204,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								135,
-								135
+								156,
+								156
 							]
 						],
 						"settings":
@@ -299,6 +366,33 @@
 				},
 				{
 					"buffer": 3,
+					"file": "views/partials/suspects.jade",
+					"settings":
+					{
+						"buffer_size": 508,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								492,
+								492
+							]
+						],
+						"settings":
+						{
+							"auto_name": "suspects",
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 4,
 					"file": "app.js",
 					"settings":
 					{
@@ -324,45 +418,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "views/partials/questions.jade",
 					"settings":
 					{
-						"buffer_size": 377,
+						"buffer_size": 409,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								181,
-								181
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "views/partials/email.jade",
-					"settings":
-					{
-						"buffer_size": 269,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								176,
-								176
+								409,
+								409
 							]
 						],
 						"settings":
@@ -377,23 +445,103 @@
 				},
 				{
 					"buffer": 6,
-					"file": "public/stylesheets/style.css",
+					"file": "views/partials/email.jade",
 					"settings":
 					{
-						"buffer_size": 192,
+						"buffer_size": 595,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								192,
-								192
+								281,
+								281
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "public/stylesheets/style.css",
+					"settings":
+					{
+						"buffer_size": 999,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								915,
+								915
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 585.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "public/javascripts/bootstrap.js",
+					"settings":
+					{
+						"buffer_size": 61752,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 495.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 9,
+					"file": "views/partials/thanks.jade",
+					"settings":
+					{
+						"buffer_size": 125,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								2,
+								2
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Jade/Syntaxes/Jade.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -460,6 +608,6 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 228.0,
+	"side_bar_width": 252.0,
 	"status_bar_visible": true
 }

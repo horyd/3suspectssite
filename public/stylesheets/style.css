@@ -9,7 +9,7 @@ body {
 		font-size: 90%;
 	}
 	.suspectimg {
-		height: 75px !important;
+		height: 70px !important;
 	}
 }
 
@@ -79,6 +79,7 @@ ul li {
 	left:50%;
 	margin-left: -20px;
 	width: 40px;
+	margin-bottom:30px;
 }
 
 .arrest {
